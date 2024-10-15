@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'din';
+  src: url('/src/assets/fonts/fontspring-demo-din-2014-rounded-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 #study-section{
   background-image: url('./assets/img-section/section5.webp');
   background-size: cover;
@@ -12,7 +24,6 @@
   background-repeat: no-repeat;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-}
+/* #super-duolingo-section{
+  font-family: '';
+} */

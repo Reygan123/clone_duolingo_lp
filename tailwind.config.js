@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['din'],
+      },
       colors: {
         'lightLime' : '#78E726',
         'limeGreen': '#58CC02'

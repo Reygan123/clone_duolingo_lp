@@ -21,6 +21,7 @@ import ButtonIconSection from "../components/section/ButtonIconSection";
 import ButtonSection from "../components/section/ButtonSection";
 import CustomFooter from "../components/footer/CustomFooter";
 import CustomFooterLanguage from "../components/footer/CustomFooterLanguage";
+import CustomSectionTitle from "../components/section/CustomSectionTitle";
 
 const Home = () => {
     const [scrolled, setScrolled] = useState(false)
@@ -116,6 +117,7 @@ const Home = () => {
                     <ButtonIconSection src={PlayStore} alt={'Play Store Icon'} text={'Dapatkan di'} nameStore={'Google Play'} />
                 </div>
             } />
+            <CustomSectionTitle src={SixthImageSection} alt={'idk'} subtitle={'power up with'} title={'super duolingo'}/>
             <CustomSectionTextButton responsiveDirection={'md:flex-row-reverse'} src={SeventhImageSection} alt={'idk'} title={'duolingo english test'} text={'Tes bahasa Inggris kami yang praktis, cepat, dan terjangkau mengintegrasikan AI dan ilmu evaluasi terbaru. Jadi, semua orang dapat menguji kecakapan bahasa Inggris mereka secara akurat di mana pun dan kapan pun mereka siap.'} textButton={'sertifikasi bahasa inggrismu'} />
             <CustomSectionTextButton responsiveDirection={'md:flex-row'} src={EightImageSection} alt={'idk'} title={'duolingo for schools'} text={'Bapak dan Ibu Guru, kami di sini untuk membantu Anda! Sarana gratis kami hadir untuk membantu siswa belajar bahasa melalui aplikasi Duolingo di dalam dan di luar kelas.'} textButton={'mulai kelas anda'} />
             <CustomSectionTextButton responsiveDirection={'md:flex-row-reverse'} src={NineImageSection} alt={'idk'} title={'duolingo abc'} text={'Dari bahasa ke literasi! Dengan pelajaran fonik dan cerita-cerita yang menyenangkan, Duolingo ABC membantu anak usia 3-8 tahun untuk belajar membaca dan menulis — 100% gratis.'} textButton={'pelajari lebih lanjut tentang abc'} />
