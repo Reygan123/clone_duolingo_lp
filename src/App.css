@@ -1,0 +1,18 @@
+#study-section{
+  background-image: url('./assets/img-section/section5.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#study-footer-section{
+  background-image: url('/src/assets/img-section/section11.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
