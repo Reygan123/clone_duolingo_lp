@@ -5,7 +5,7 @@ import TitleSection from "./TitleSection"
 const CustomSectionButton = ({ src, alt, title }) => {
     return (
         <div className="w-full flex justify-center items-center">
-            <div className="w-full md:max-w-xl lg:max-w-5xl flex flex-col md:flex-row text-center py-10 md:py-20 lg:py-40 ">
+            <div className="w-11/12 md:max-w-xl lg:max-w-5xl flex flex-col md:flex-row text-center py-10 md:py-20 lg:py-40 ">
                 <div className="md:w-4/5 lg:w-11/12">
                     <ImageSection src={src} alt={alt} />
                 </div>

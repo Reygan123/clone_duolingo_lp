@@ -5,7 +5,7 @@ const Navbar = ({ scrolledStatus }) => {
 
     return (
         <div className={`fixed top-0 w-full flex justify-center items-center ${scrolledStatus ? 'border-b border-b-gray-300' : ''} bg-white transition-all duration-300 md:p-2`}>
-            <div className="w-full md:max-w-xl lg:max-w-5xl flex justify-between items-center px-4 py-2">
+            <div className="w-full md:max-w-xl lg:max-w-5xl flex justify-between items-center px-4 py-4">
                 <img src={Logo} alt="Logo" className="h-8 lg:h-11" />
                 {scrolledStatus ?
                     (
